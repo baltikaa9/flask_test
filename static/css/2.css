@@ -1,0 +1,42 @@
+.square { 
+	width: 60px;              /* Ширина */
+	height: 400px;             /* Высота */
+	background: #d8d8d8;    /* Цвет фона */
+	border-style: solid;      /* Стиль границы */ 
+	padding: 100px;           /* Отступ */
+	border-radius: 50px;      /* Ширина обрамления */
+	border-color: black;      /* Цвет обрамления */
+	margin-left: 100px;       /* Отступ слева */
+	margin-top: 0px;         /* Отступ сверху */
+	float: right;
+} 
+.redcircle {
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	margin-left: -45px;
+	margin-top: -70px;
+}
+.yellowcircle {
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	margin-left: -45px;
+	margin-top: 40px;
+}
+.greencircle {
+	width: 150px;
+	height: 150px;
+	background: green;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	margin-left: -45px;
+	margin-top: 40px;
+}

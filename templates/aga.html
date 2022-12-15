@@ -1,0 +1,82 @@
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>HTML 4</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/2.css') }}">
+	
+</head>
+<body>
+	
+	<div class="square">
+		<div class="redcircle"></div> 
+		<div class="yellowcircle"></div>
+		<div class="greencircle"></div>
+	</div> 
+
+	<ol type="i"  start="1000">
+		<li>Зима</li>
+		<ul type="circle">
+			<li>Декабрь</li>
+			<li>Январь</li>
+			<li>Февраль</li>
+		</ul>
+		<li>Весна</li>
+		<li>Лето</li>
+		<li>Осень</li>
+	</ol>
+	<table border="2" width="30%" height="200px">
+		<tr>
+			<td colspan="2"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td colspan="2"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<br>
+
+	<form>
+		<input type="text" placeholder="Новосибирск">
+	</form>
+
+	<form>
+		<input type="radio" name="city"> Омск <br>
+		<input type="radio" name="city" checked> Новосибирск <br>
+		<input type="radio" name="city"> Томск 
+	</form>
+
+	<form>
+		<input type="password" value="111111">
+	</form>
+
+	<form>
+		<select>
+			<option>Омск</option>
+			<option selected>Новосибирск</option>
+			<option>Томск</option>
+		</select>
+	</form>
+	<br><br><br>
+	<form>
+		<input type="submit" value="Отправить">
+		<input type="reset" value="Сбросить">
+	</form>
+	<br>
+{#	<img src="./skala.gif" width="100%" height="100%">#}
+    <img src="{{ url_for("static", filename="skala.gif") }}" alt="ops image" width="100%" height="100%">
+</body>
+</html>
